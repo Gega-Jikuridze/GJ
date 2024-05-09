@@ -1,5 +1,6 @@
 import AddUser from "../components/Add user/addUser"
 import UserList from "../components/Add user/userList"
+import Background from "../components/background/background"
 
 
 const Main = () => {
@@ -8,6 +9,10 @@ const Main = () => {
         <div className="users">
             <AddUser />
             <UserList />
+        </div>
+
+        <div>
+            <Background />
         </div>
 
 
